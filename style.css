@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.header {
+    height: min-content;
+    border-radius: 20px;
+}
+
+.search-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    background-color: rgb(156, 195, 203);
+    padding: 12px 16px;
+    border-radius: 14px;
+}
+
+.search-box input::placeholder {
+    color: black;
+}
+
+.search-box button {
+    width: 50px;
+    height: 45px;
+    background-color: rgb(156, 227, 227);
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.weather-body img {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    margin-left: 60px;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+}
+
+.temperature sup {
+    font-size: 20px;
+    position: absolute;
+    font-weight: 500;
+}
+
+.description {
+    text-align: center;
+    color:black;
+    font-size:27px;
+    font-weight: 500;
+}
+
+  .humidity i {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 60px;
+} 
+
+.text  span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size:25px ;
+    font-weight: 800;
+}
+.text p{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+} 
+.humidity, .wind{
+           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.weather-details{
+    margin-top:40px;
+
+}
+.wind {
+    margin-right: 40px;
+
+}
+.humidity{
+    margin-right: 200px;
+}
+ 
+
+
+
+
+.location-not-found h1{
+    font-size: 20px;
+    color: brown;
+
+}
